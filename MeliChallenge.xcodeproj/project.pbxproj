@@ -40,11 +40,6 @@
 			path = MeliChallengeTests;
 			sourceTree = "<group>";
 		};
-		33BF0A6B2EB170F7003A7F15 /* MeliChallengeUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MeliChallengeUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +72,6 @@
 			children = (
 				33BF0A532EB170F4003A7F15 /* MeliChallenge */,
 				33BF0A612EB170F7003A7F15 /* MeliChallengeTests */,
-				33BF0A6B2EB170F7003A7F15 /* MeliChallengeUITests */,
 				33BF0A522EB170F4003A7F15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -152,9 +146,6 @@
 			);
 			dependencies = (
 				33BF0A6A2EB170F7003A7F15 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				33BF0A6B2EB170F7003A7F15 /* MeliChallengeUITests */,
 			);
 			name = MeliChallengeUITests;
 			packageProductDependencies = (
