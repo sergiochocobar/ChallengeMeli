@@ -2,7 +2,7 @@
 //  MeliChallengeApp.swift
 //  MeliChallenge
 //
-//  Created by NaranjaX on 28/10/2025.
+//  Created by Sergio Chocobar on 28/10/2025.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct MeliChallengeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ArticleListView()
         }
     }
 }
