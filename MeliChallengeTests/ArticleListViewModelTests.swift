@@ -10,7 +10,7 @@ import Combine
 @testable import MeliChallenge
 
 @MainActor
-class ArticleListModelTests: XCTestCase {
+class ArticleListViewModelTests: XCTestCase {
     var mockListUseCase: MockListArticlesUseCase!
     var mockSearchUseCase: MockSearchArticlesUseCase!
     var viewModel: ArticleListViewModel!
